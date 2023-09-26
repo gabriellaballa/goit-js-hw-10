@@ -17,7 +17,6 @@ const breedName = document.querySelector('.cat-breed');
 const description = catInfo.querySelector('.description');
 const temperament = catInfo.querySelector('.temperament');
 
-// Function to fetch cat breeds
 function fetchBreeds() {
   loader.style.display = 'block';
   error.style.display = 'none';
